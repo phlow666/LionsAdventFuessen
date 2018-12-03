@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/lions.csproj"
+                "${workspaceFolder}/src/lions.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
