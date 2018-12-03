@@ -30,9 +30,15 @@ namespace lions
 
             foreach (var number in this.numbers)
             {
+                Console.Write($"Gesuchte Zahl {number}: ");
                 if (doc.ParsedText.Contains(number))
                 {
                     winNumbers.Add(number);
+                    Console.WriteLine("GEFUNDEN");
+                }
+                else
+                {
+                    Console.WriteLine("NICHT GEFUNDEN");
                 }
             }
 
