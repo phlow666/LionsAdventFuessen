@@ -12,6 +12,12 @@ namespace lions
 
         public AdventParser(string url, string[] numbers)
         {
+            if (numbers == null || numbers.Length == 0)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Keine Parameter");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
             this.url = url;
             this.numbers = numbers;
         }
