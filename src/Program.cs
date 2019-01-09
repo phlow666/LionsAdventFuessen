@@ -8,7 +8,7 @@ namespace lions
     {
         static void Main(params string[] args)
         {
-            var parser = new AdventParser("https://www.lions.de/web/lc-fuessen/gewinner-2017", args);
+            var parser = new AdventParser("https://www.lions.de/web/lc-fuessen/gewinner-2018", args);
 
             parser.Parse();
             Console.ReadKey();
