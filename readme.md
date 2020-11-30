@@ -1,11 +1,11 @@
 # Adventskalender des LionsClub Füssen checken
 
-[https://www.lions.de/web/lc-fuessen/adventskalender](Lions Club Füssen)
+[Lions Club Füssen](https://www.lions.de/web/lc-fuessen/adventskalender)
 
 Lions.dll mit Ids als CommandParameter aufrufen
 
 Beispiel:
 
 ```console
-dotnet lions.dll 1234 5678
+dotnet lions.dll 4047 3738 2632 3756
 ```
